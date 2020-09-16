@@ -189,10 +189,87 @@
 // foo1.foo4 = () => {console.log(`I will a programmer!`)}
 // foo1.foo5 = () => {console.log(`I will make a lot of money!`)}
 // foo1.foo4()
-class Person {}
-const a = new Person();
-console.log(Person.prototype.__proto__);
-const num = 14
-console.log(num.__proto__.__proto__.__proto__)
-function name(params) {}
-console.log(name.__proto__.__proto__.__proto__)
+// class Person {}
+// const a = new Person();
+// console.log(Person.prototype.__proto__);
+// const num = 14
+// console.log(num.__proto__.__proto__.__proto__)
+// function name(params) {}
+// console.log(name.__proto__.__proto__.__proto__)
+// (function (a, b, c) {
+//     arguments[2] = (typeof arguments).length;
+//     c > 10 ? console.log(c) : console.log(++c);
+// })(1, 2, 3);
+// const title = (x) => ++x + x++;
+// console.log(title(10))
+// (function js(x) {
+//     const y = (j) => j * x;
+
+//     console.log(y(s()));
+
+//     function s() {
+//         return j();
+//     }
+
+//     function j() {
+//         return x ** x;
+//     }
+// })(3);
+// function a(x) {
+//     x++;
+//     return function () {
+//         console.log(++x);
+//     };
+// }
+// a(1)();
+// a(1)();
+// a(1)();
+// let x = a(1);
+// x();
+// x();
+// // x();
+// (function js(x) {
+//     const y = (j) => j * x;
+
+//     console.log(y(s()));
+
+//     function s() {
+//         return j();
+//     }
+
+//     function j() {
+//         return x ** x;
+//     }
+// })(3);
+// let a = 5;
+// setTimeout(function timeout() {
+//     console.log('timout');
+//     a = 10;
+// }, 0);
+// let p = new Promise(function(resolve, reject) {
+//     console.log('a.in.newPromise');
+//     a = 25;
+//     resolve();
+// });
+// p.then(function(){
+//     console.log('p.then')
+// });
+// console.log('Default a');
+// const arr = [];
+// for (let i = 0; i < 1000000; i++) {
+//   arr[i] = 2 ** i;
+// }
+// let num = 10
+// const name1 = () => num++
+// // const name2 = () => num++ + ++num
+// // const name3 = () => ++num
+// // const name4 = () => ++num + num++
+// console.log(name1())
+// function Name() {}
+// const name = (params) => {};
+// const o = {};
+// console.log(o + 1);
+// console.log({} + 1);
+// console.log(new Name() + 1);
+// console.log(name);
+// console.log(name + 1);
