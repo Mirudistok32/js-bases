@@ -8,8 +8,9 @@
 // var student2 = new Kiora("Vuong22");
 // console.log(student1.name); //undefined
 // console.log(student2.name); //undefined
+// //############################
 
-//############################
+// //############################
 // function foo(a) {
 //   a++;
 //   return function loo() {
@@ -29,4 +30,15 @@
 // foo3()
 // foo3()
 // foo3()
+// //############################
+
+// //############################
+const id = 10;
+const getID = (...id) => {
+    id(id);
+    function id(id) {
+        console.log(typeof id, id);
+    }
+};
+getID(id);
 // //############################

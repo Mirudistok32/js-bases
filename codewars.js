@@ -273,3 +273,23 @@
 // console.log(new Name() + 1);
 // console.log(name);
 // console.log(name + 1);
+// function* startGame() {
+//     const answer = yield "Ты любишь JavaScript?";
+//     if (answer !== "Да") {
+//         return "Как интересно... В таком случае что ты здесь делаешь?";
+//     }
+//     return "JavaScript тоже тебя любит ❤️";
+// }
+// const game = startGame();
+// console.log(game.next().value);
+// console.log(game.next("Да").value);
+// const id = 10;
+// const getID = (...id) => {
+class Chameleon {
+  constructor({ newColor = "green" } = {}) {
+    this.newColor = newColor;
+  }
+}
+
+const freddie = new Chameleon({ newColor: "purple" });
+console.log(freddie.newColor);
